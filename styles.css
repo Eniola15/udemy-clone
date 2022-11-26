@@ -1,0 +1,519 @@
+html {
+    font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+    font-weight: lighter;
+    height: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  nav {
+    border-bottom: 2px solid gray;
+    border-radius: 1px;
+  }
+
+  .nav-div {
+    display: flex;
+    gap: 1px;
+    margin-top: 30px;
+    justify-content: space-around;
+  }
+
+  .obj1 {
+    margin: -35px 35px 5px 25px;
+  }
+
+  .categories {
+        margin: 5px 20px 2px -40px;
+        width: 90px;
+        padding: 2px;
+        background-color: white;
+        border: 1px solid transparent;
+  }
+
+  .search {
+    margin: -5px -100px 2px -30px;
+    width: 540px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    align-content: right;
+  }
+
+  .business {
+    margin: 1px -65px 2px 120px;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid transparent;
+  }
+
+  .businesses {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-left: -10px;
+  }
+
+  .teacher {
+    margin: 1px 40px 2px 70px;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid transparent;
+  }
+
+  .teach {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-left: -10px;
+  }
+
+  .cart {
+    margin: -2px 1px 2px -30px;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid transparent;
+  }
+
+  .cart1 {
+    color: black;
+    margin-left: -10px;
+    margin-right: 20px;
+  }
+
+  .login, .signup {
+    margin: -7px 1px 2px -30px;
+    padding: 1px;
+    background-color: white;
+    border: 1px solid transparent;
+  }
+
+  .login-btn {
+    width: 100%;
+    color: black;
+    margin-left: -10px;
+    padding: 10px;
+    color: black;
+    font-style: bold;
+    margin-right: 30px;
+    margin-left: 10px;
+    border: 1px solid black;
+  }
+
+  .signup-btn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-left: -10px;
+    padding: 10px;
+    font-style: bold;
+    margin-right: 15px;
+    margin-left: 7px;
+    border: 1px solid black;
+  }
+
+  .world {
+    padding: 1px;
+    margin-top: 1px;
+  }
+
+  .wrld {
+    width: 90%;
+    height: 50%;
+    background-color: white;
+    color: white;
+    padding: 3px;
+    font-style: bold;
+    margin-bottom: 5px;
+    margin-right: 25px;
+    margin-left: -5px;
+    margin-top: -10px;
+    border: 1px solid black;
+  }
+
+.hero { 
+    width: 95%;
+    height: 25%;
+    margin-left: 40px;
+    margin-right: 40px
+}
+
+.hero-text {
+    position: absolute;
+    top: 170px;
+    left: 130px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 12px;
+}
+
+.hero-text > h1 {
+    font-weight: 400;
+    font-style: lighter;
+    font-size: 25px;
+}
+
+.hero-text > p {
+    font-weight: 100;
+    font-style: lighter;
+    font-size: 16px;
+}
+
+.section-three > h2 {
+    margin-top: 25px;
+    margin-left: 60px;
+    font-style: lighter;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.section-three > p {
+    font-size: 15px;
+    font-style: lighter;
+    font-weight: 100;
+    margin-left: 60px;
+    margin-top: -5px;
+}
+
+.courses span {
+    margin-left: 14px;
+    margin-top: 10px;
+    padding: 1px;
+  }
+
+  div.courses span {
+    display: flex;
+  }
+
+  .courses li {
+    width: 40px;
+    margin: 4px 40px 4px 4px;
+    list-style-type: none;
+    padding: 1px;
+    font-size: 12px;
+  }
+
+  .courses a {
+    color: gray;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .first {
+    margin-left: 40px;
+  }
+  .second {
+    margin-left: 15px;
+  }
+
+  .third {
+    margin-left: -20px;
+  }
+  .fourth {
+    margin-left: 15px;
+  }
+  .fifth, .sixth {
+    margin-left: 5px;
+  }
+  .seventh {
+    margin-left: 35px;
+  }
+
+.div4 {
+    border: 1px solid black;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-right: 130px;
+    padding: 10px;
+}
+  .div-four h3{
+    font-style: lighter;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .div-four p{
+    font-size: 15px;
+    font-style: lighter;
+    font-weight: 100;
+    font-size: 13px;
+  }
+
+  .btn4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  .btn4 button {
+    padding: 12px;
+    color: black;
+    background-color:white;
+    border: 1px solid black;
+  }
+
+  .image-div {
+    margin-top: -8px;
+  }
+  .image-hero {
+    margin-top: 1px;
+    margin-left: -5px;
+    width: 100%;
+    height: 50%;
+  }
+
+  .main-div {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(251, 248, 248);
+    width: 100%;
+    height: 70px;
+    margin-top: 40px;
+  }
+    
+  .row1, .row2, .row3 {
+    display: flex;
+    margin: 10px 10px 10px -90px;
+  }
+
+  .row1 object {
+    margin-top: -25px;
+    width: 40px;
+  }
+
+  .row1 p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .row2 object {
+    margin-top: -25px;
+    width: 40px;
+  }
+
+  .row2 p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .row3 object {
+    margin-top: -25px;
+    width: 40px;
+  }
+
+  .row3 p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .section-five h3 {
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+  }
+  .image2-div {
+    margin-top: -8px;
+    margin-left: 60px;
+    margin-right: 110px;
+  }
+  .image2-hero {
+    margin-top: 1px;
+    margin-left: -5px;
+    width: 100%;
+    height: 50%;
+  }
+
+  .section-six h3 {
+    margin-top: 40px;
+    margin-bottom: 2px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+  }
+
+.topics div {
+    margin-left: 14px;
+    margin-top: -5px;
+    padding: 1px;
+  }
+
+  .topics {
+    padding: 50px;
+    margin-left: -20px;
+    margin-top: -50px;
+    background-color: rgb(251, 248, 248);
+  }
+
+  .topics div{
+    padding: 10px;
+  }
+
+  div.topics div {
+    display: flex;
+    gap: 100px;
+  }
+
+  .topics li {
+    width: 40px;
+    margin: 4px 40px 4px 4px;
+    list-style-type: none;
+    text-decoration: underline;
+    padding: 5px;
+    font-size: 12px;
+    color: gray;
+    white-space: nowrap;
+  }
+
+  .section-seven h4 {
+    margin-top: 70px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-style: 100;
+    font-weight: lighter;
+  }
+
+  .section-seven p {
+    margin-top: 4px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-style: 100;
+    font-weight: lighter;
+  }
+
+.seven-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seven-div object {
+    padding:10px;
+    width: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logo2 {
+    width: 90px;
+}
+  
+.section-eight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.section8 {
+    margin-left: 50px;
+}
+
+.section8 img {
+margin-left: 3px;
+margin-bottom: -5px;
+width: 70px;
+}
+
+.section8 p {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section8 span {
+    margin-left: 10px;
+    color: purple;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.section8 button {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+}
+
+.subsection img {
+    width: 500px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 100;
+    
+}
+
+.footerone, .footertwo, .footerthree {
+    margin-top: 30px;
+    margin-left: -40px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footerfour button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    margin-top: 25px;
+    margin-right: -75px;
+    width: 100px;
+}
+
+.last-div {
+    display: flex;
+    gap: 1000px;
+}
+.obj3 {
+    color: white;
+    margin-left: 90px;
+}
+
+.paragraph {
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 50px 10px;
+}
+
+@media only screen and (min-width: 1450px),
+  only screen and (min-width: 550px) and (max-width: 949px),
+  only screen and (min-width: 950px) and (max-width: 1449px) {
+  html {
+    padding: auto;
+    margin: auto;
+  }
+}
